@@ -1,3 +1,35 @@
+# 🛒 Ecommerce Data Analysis – Advanced SQL + Power BI
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/iamramraja/)
+[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/imramraja)
+![SQL Server](https://img.shields.io/badge/SQL_Server-CC2927?style=for-the-badge&logo=microsoft-sql-server&logoColor=white)
+![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
+
+## 📌 Project Overview
+
+This project delivers a comprehensive, end-to-end analytical solution for the **Brazilian E-Commerce Public Dataset by Olist**. It demonstrates the full workflow of a data analyst: from cleaning raw data and performing advanced SQL analysis to building interactive Power BI dashboards that drive business decisions.
+
+With over **100,000 orders**, **3,000+ products**, and **3,000+ sellers**, this project simulates a real-world e-commerce ecosystem. The goal was to go beyond basic queries and build a performance monitoring layer that answers strategic business questions through advanced SQL techniques and presents the findings in an accessible, visual format.
+
+## 🎯 Key Business Questions Answered
+
+- What are the monthly revenue trends and seasonal patterns?
+- Who are the top customers by lifetime value, and how can we segment them?
+- Which products are frequently bought together (affinity analysis)?
+- How does delivery delay impact customer review scores?
+- Which sellers drive the most revenue, and are they also the highest-rated?
+- What is the cancellation rate by product category?
+
+## 🛠️ Technical Toolkit
+
+| Area | Technologies Used |
+|------|-------------------|
+| **Database** | Microsoft SQL Server (T‑SQL) |
+| **Data Modeling** | Star schema with fact tables (orders, items, payments) and dimension tables (customers, products, sellers, time) |
+| **SQL Techniques** | Window functions (RANK, LAG, NTILE), CTEs, subqueries, self‑joins, dynamic date logic |
+| **Reusable Objects** | Stored procedures, scalar functions, table‑valued functions, SQL views |
+| **Visualization** | Power BI dashboards with DAX measures and interactive reports |
+
 
 ## 🧼 Data Cleaning Process
 
@@ -59,26 +91,17 @@ The `Functions` and `Procedures` folders contain reusable database objects that 
 
 The `Power BI` folder contains interactive dashboards that bring the SQL insights to life. These files connect directly to the cleaned SQL views and tables.
 
-### Dashboard Highlights
 
-| Dashboard File | Key Features |
-|----------------|--------------|
-| `Ecommerce_Dashboard.pbix` | Executive overview with revenue trends, geographic heatmaps, and product performance |
-| `RFM_Segmentation.pbix` | Deep dive into customer segments with dynamic filters and actionable insights |
-| `Delivery_Performance.pbix` | Analysis of delivery delays, their root causes, and impact on customer satisfaction |
+### Dashboard Previews
 
-### Sample Visuals from the Dashboards
+Below are previews of the main dashboard pages from the `assets` folder:
 
-*(Replace these placeholder captions with your actual screenshots from the `assets` folder)*
-
-![Executive Summary](assets/executive_summary.png)
-*Executive dashboard showing monthly revenue, order volume, and top categories*
-
-![RFM Segmentation](assets/rfm_dashboard.png)
-*Customer segmentation by Recency, Frequency, and Monetary value*
-
-![Delivery Heatmap](assets/delivery_heatmap.png)
-*Geographic analysis of delivery delays and average review scores by state*
+| Page | Preview |
+|------|---------|
+| **Overview** – KPIs, payment distribution, review scores, and monthly order trends | ![Overview](assets/Dashboard_page-1.jpg) |
+| **Orders Analysis** – Geographic distribution of orders and breakdown by product category | ![Orders Analysis](assets/Dashboard_page-2.jpg) |
+| **Order Details** – Detailed view of orders with delivery status and region | ![Order Details](assets/Dashboard_page-3.jpg) |
+| **Product Sales Details** – Drill-down into sales for a specific product category (Watches Gifts) | ![Product Sales](assets/Dashboard_page-4.jpg) |
 
 ## 💡 Key Insights & Business Impact
 
@@ -91,11 +114,6 @@ The `Power BI` folder contains interactive dashboards that bring the SQL insight
 | **Credit card dominates (74%) with average 3 installments** | Partner with card issuers for exclusive offers |
 | **RFM analysis identified 1,200 “Champions”** | Target them for early access to new products |
 
-## 🚀 How to Use This Project
-
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/imramraja/Ecommerce-Data-Analysis-SQL-Power-BI.git
 ## 🙋‍♂️ About Me
 
 I am a data analyst passionate about turning raw data into strategic business insights. This project reflects my ability to:
@@ -109,3 +127,4 @@ I am actively seeking opportunities where I can apply these skills to drive data
 
 **Let's connect!**  
 [LinkedIn](https://www.linkedin.com/in/iamramraja/) | [GitHub](https://github.com/imramraja)
+
